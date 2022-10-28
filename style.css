@@ -1,0 +1,159 @@
+
+
+*{
+  background: #ffffff;
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+#container1{
+  width: 100%;
+  height: 110px;
+}
+
+.navegador{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#buscador{
+  width: 300px;
+  height: 30px;
+  border-width: 2px;
+}
+.logoheader{
+  width: 150px;
+}
+ul{
+  display: flex;
+}
+li{
+  
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  padding-left: 12px;
+
+
+}
+
+button{
+  height: 30px;
+}
+
+
+header{
+  background: #000;
+}
+
+.USER{
+  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  float: left; 
+}
+
+
+
+
+
+
+
+
+
+
+
+/*header*/
+
+
+/*
+nav{
+  display:inline-flex;
+  align-items: center;
+  padding: 0px 0px 0px 0px;
+}
+
+
+
+
+.header2{
+
+  padding: 0px 0px 0px 680px;
+  display: inline-block;
+  
+  
+}
+.CONTACTO{
+  padding: 0px 0px 0px 20px;
+
+}
+form{
+  padding: 0px 0px 0px 400px;
+
+}
+
+.puntos{
+  width: 45px;
+  height: 45px;
+  padding: 0px 0px 0px 0px;
+
+
+}
+
+
+
+input{
+  width: 480px;
+  height: 45px;
+}
+
+.USER{
+  border-radius: 40px;
+  height: 50px;
+  width: 50px;
+}
+
+
+img{
+ 
+width: 180px;
+height: 120px; 
+  
+}
+
+/*
+a{
+  font-size: 28px;
+  font-family: 'Roboto',"Arial",sans-serif;;
+  text-decoration: none;
+  
+
+}*/
+
+/*
+main{
+  margin: 10px;;
+  padding: 10px;
+}
+
+video{
+  height: 800px;
+  width: 100%;
+}
+
+
+@media (max-width: 440px) {
+  #home {
+    padding-top: 320px;
+    padding-bottom: 320px;
+  }
+  #home h1 {
+    font-size: 22px;
+  }
+  #home h3 {
+    font-size: 12px;
+  }
+}
